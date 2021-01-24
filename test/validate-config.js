@@ -6,7 +6,7 @@ test('load config in eslint to validate all rule syntax is correct', function (t
 
   const cli = new CLIEngine({
     useEslintrc: false,
-    configFile: 'eslintrc.json'
+    configFile: 'eslintrc.json',
   })
 
   const code = 'const foo = 1\nconst bar = function () {}\nbar(foo)\n'
